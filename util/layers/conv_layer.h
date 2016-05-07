@@ -23,9 +23,7 @@ public:
 		Halide::RDom r(0, kernel_x, 0, kernel_y, 0, last_layer.size[2]);
 				
 		if (do_schedule == 1) {
-			/*
-			 * update definition
-			 */
+
 			Halide::Func f_in_bound("f_in_bound");
 			f_in_bound = Halide::BoundaryConditions::constant_exterior(last_layer.cnnff, 0, 0, last_layer.size[0], 0, last_layer.size[1]);
 
