@@ -1,0 +1,11 @@
+# halide files
+bin/
+include/
+lib/
+tools/
+tutorial/
+.DS_Store
+resources/*.png
+resources/*.jpg
+resources/*.ppm
+resources/*.caffemodel

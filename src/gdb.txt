@@ -1,0 +1,166 @@
++print *it
+$30 = (caffe::LayerParameter &) @0x710680: {
+  <google::protobuf::Message> = {
+    <google::protobuf::MessageLite> = {
+      _vptr.MessageLite = 0x4bc2b0 <vtable for caffe::LayerParameter+16>
+    }, 
+    <No data fields>
+  }, 
+  static kNameFieldNumber = 1, 
+  static kTypeFieldNumber = 2, 
+  static kBottomFieldNumber = 3, 
+  static kTopFieldNumber = 4, 
+  static kPhaseFieldNumber = 10, 
+  static kLossWeightFieldNumber = 5, 
+  static kParamFieldNumber = 6, 
+  static kBlobsFieldNumber = 7, 
+  static kPropagateDownFieldNumber = 11, 
+  static kIncludeFieldNumber = 8, 
+  static kExcludeFieldNumber = 9, 
+  static kTransformParamFieldNumber = 100, 
+  static kLossParamFieldNumber = 101, 
+  static kAccuracyParamFieldNumber = 102, 
+  static kArgmaxParamFieldNumber = 103, 
+  static kBatchNormParamFieldNumber = 139, 
+  static kBiasParamFieldNumber = 141, 
+  static kConcatParamFieldNumber = 104, 
+  static kContrastiveLossParamFieldNumber = 105, 
+  static kConvolutionParamFieldNumber = 106, 
+  static kCropParamFieldNumber = 144, 
+  static kDataParamFieldNumber = 107, 
+  static kDropoutParamFieldNumber = 108, 
+  static kDummyDataParamFieldNumber = 109, 
+  static kEltwiseParamFieldNumber = 110, 
+  static kEluParamFieldNumber = 140, 
+  static kEmbedParamFieldNumber = 137, 
+  static kExpParamFieldNumber = 111, 
+  static kFlattenParamFieldNumber = 135, 
+  static kHdf5DataParamFieldNumber = 112, 
+  static kHdf5OutputParamFieldNumber = 113, 
+  static kHingeLossParamFieldNumber = 114, 
+  static kImageDataParamFieldNumber = 115, 
+  static kInfogainLossParamFieldNumber = 116, 
+  static kInnerProductParamFieldNumber = 117, 
+  static kInputParamFieldNumber = 143, 
+  static kLogParamFieldNumber = 134, 
+  static kLrnParamFieldNumber = 118, 
+  static kMemoryDataParamFieldNumber = 119, 
+  static kMvnParamFieldNumber = 120, 
+  static kPoolingParamFieldNumber = 121, 
+  static kPowerParamFieldNumber = 122, 
+  static kPreluParamFieldNumber = 131, 
+  static kPythonParamFieldNumber = 130, 
+  static kReductionParamFieldNumber = 136, 
+  static kReluParamFieldNumber = 123, 
+  static kReshapeParamFieldNumber = 133, 
+  static kScaleParamFieldNumber = 142, 
+  static kSigmoidParamFieldNumber = 124, 
+  static kSoftmaxParamFieldNumber = 125, 
+  static kSppParamFieldNumber = 132, 
+  static kSliceParamFieldNumber = 126, 
+  static kTanhParamFieldNumber = 127, 
+  static kThresholdParamFieldNumber = 128, 
+  static kTileParamFieldNumber = 138, 
+  static kWindowDataParamFieldNumber = 129, 
+  _internal_metadata_ = {
+    ptr_ = 0x0, 
+    static kPtrTagMask = 1, 
+    static kPtrValueMask = -2
+  }, 
+  _has_bits_ = {2099219, 0}, 
+  name_ = {ptr_ = 0x711a60}, 
+  type_ = {ptr_ = 0x711960}, 
+  bottom_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+    }, 
+    <No data fields>
+  }, 
+  top_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 2, total_size_ = 4, static kRepHeaderSize = 8, rep_ = 0x6f3350
+    }, 
+    <No data fields>
+  }, 
+  loss_weight_ = {
+    static kInitialSize = <optimized out>, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+  }, 
+  param_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+    }, 
+    <No data fields>
+  }, 
+  blobs_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+    }, 
+    <No data fields>
+  }, 
+  propagate_down_ = {
+    static kInitialSize = <optimized out>, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+  }, 
+  include_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 1, total_size_ = 4, static kRepHeaderSize = 8, rep_ = 0x711d10
+    }, 
+    <No data fields>
+  }, 
+  exclude_ = {
+    <google::protobuf::internal::RepeatedPtrFieldBase> = {
+      static kInitialSize = 0, arena_ = 0x0, current_size_ = 0, total_size_ = 0, static kRepHeaderSize = 8, rep_ = 0x0
+    }, 
+    <No data fields>
+  }, 
+  transform_param_ = 0x6eaab0, 
+  loss_param_ = 0x0, 
+  accuracy_param_ = 0x0, 
+  argmax_param_ = 0x0, 
+  batch_norm_param_ = 0x0, 
+  bias_param_ = 0x0, 
+  concat_param_ = 0x0, 
+  contrastive_loss_param_ = 0x0, 
+  convolution_param_ = 0x0, 
+  crop_param_ = 0x0, 
+  data_param_ = 0x6ec8e0, 
+  dropout_param_ = 0x0, 
+  dummy_data_param_ = 0x0, 
+  eltwise_param_ = 0x0, 
+  elu_param_ = 0x0, 
+  embed_param_ = 0x0, 
+  exp_param_ = 0x0, 
+  flatten_param_ = 0x0, 
+  hdf5_data_param_ = 0x0, 
+  hdf5_output_param_ = 0x0, 
+  hinge_loss_param_ = 0x0, 
+  image_data_param_ = 0x0, 
+  infogain_loss_param_ = 0x0, 
+  inner_product_param_ = 0x0, 
+  input_param_ = 0x0, 
+  log_param_ = 0x0, 
+  lrn_param_ = 0x0, 
+  memory_data_param_ = 0x0, 
+  mvn_param_ = 0x0, 
+  pooling_param_ = 0x0, 
+  power_param_ = 0x0, 
+  prelu_param_ = 0x0, 
+  python_param_ = 0x0, 
+  reduction_param_ = 0x0, 
+  relu_param_ = 0x0, 
+  reshape_param_ = 0x0, 
+  scale_param_ = 0x0, 
+  sigmoid_param_ = 0x0, 
+  softmax_param_ = 0x0, 
+  spp_param_ = 0x0, 
+  slice_param_ = 0x0, 
+  tanh_param_ = 0x0, 
+  threshold_param_ = 0x0, 
+  tile_param_ = 0x0, 
+  window_data_param_ = 0x0, 
+  phase_ = 0, 
+  _cached_size_ = 0, 
+  static default_instance_ = 0x7142f0
+}
+
+
+
