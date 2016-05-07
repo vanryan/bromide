@@ -1,0 +1,1 @@
+Bromide is a general Convolutional Neural Networks inference program using the Halide image processing language which is scheduled to be fast(-er than Caffe, up to 3x) on a single machine using CPU. 
