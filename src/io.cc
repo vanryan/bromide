@@ -7,11 +7,11 @@
 #include <stdint.h>
 
 #include <algorithm>
-#include <fstream>  // NOLINT(readability/streams)
+#include <fstream> 
 #include <string>
 #include <vector>
 
-const int kProtoReadBytesLimit = INT_MAX;  // Max size of 2 GB minus 1 byte.
+const int kProtoReadBytesLimit = INT_MAX;  
 
 namespace Bromide {
 
