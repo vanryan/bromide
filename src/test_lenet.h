@@ -23,7 +23,7 @@ int perf_lenet(Halide::ImageParam input_data, Halide::ImageParam labels, int cou
 
 	NetParameter param;
 
-	ReadNetParamsFromBinaryFile("/home/lpirc/Ruizhou/bromide-0506/resources/lenet_iter_10000.caffemodel", &param);
+	ReadNetParamsFromBinaryFile("/path/to/bromide/resources/lenet_iter_10000.caffemodel", &param);
 	/*
 	//show param
 	cout << "conv layer name: " << param.mutable_layer(1)->name() << endl;

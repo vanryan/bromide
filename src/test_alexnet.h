@@ -22,7 +22,7 @@ using namespace Bromide;
 int perf_alexnet(Halide::ImageParam input_data, Halide::ImageParam labels, int count=1) {
 
 	NetParameter param;
-  	ReadNetParamsFromBinaryFile("/home/lpirc/Ruizhou/bromide-0506/resources/bvlc_alexnet.caffemodel", &param);
+  	ReadNetParamsFromBinaryFile("/path/to/bromide/resources/bvlc_alexnet.caffemodel", &param);
 
   	// timer
   	// double startTime = CycleTimer::currentSeconds();
@@ -196,9 +196,9 @@ int perf_alexnet(Halide::ImageParam input_data, Halide::ImageParam labels, int c
 void test_alexnet() {
 
 	std::vector<std::string> input_images;
-	input_images.push_back("/home/lpirc/Ruizhou/bromide-0506/resources/cat.ppm");
+	input_images.push_back("/path/to/bromide/resources/cat.ppm");
 
-	std::string mean_proto = "/home/lpirc/Ruizhou/bromide-0506/resources/imagenet_mean.binaryproto";
+	std::string mean_proto = "/path/to/bromide/resources/imagenet_mean.binaryproto";
 	BlobProto mean_blob;
 	ReadProtoFromBinaryFile(mean_proto, &mean_blob);
 /*
